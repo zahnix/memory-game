@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Grid Blitz: NFL Memory Game</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="app__container">
+    <header class="header">
+      <h1 class="header__title">Grid Blitz: Football Memory Game</h1>
+    </header>
+    <div class="game__container" id="game">
+      <div class="game__grid" id="game-grid">
+        <div class="game__card" data-name="49ers">
+          <!-- <img class="game__card-back" src="images/49ers.png" alt="49ers"> -->
+          <img class="game__card-front" src="images/nfl-logo.png" alt="NFL Logo">
+        </div>
+        <div class="game__card" data-name="bears">
+            <!-- <img class="game__card-back" src="images/bears.png" alt="Bears"> -->
+            <img class="game__card-front" src="images/nfl-logo.png" alt="NFL Logo">
+        </div>
+        <div class="game__card" data-name="bengals">
+          <!-- <img class="game__card-back" src="images/bengals.png" alt="Bengals"> -->
+          <img class="game__card-front" src="images/nfl-logo.png" alt="NFL Logo">
+        </div> 
+        <div class="game__card" data-name="bills">
+          <!-- <img class="game__card-back" src="images/bills.png" alt="Bills"> -->
+          <img class="game__card-front" src="images/nfl-logo.png" alt="NFL Logo">
+        </div>
+        <div class="game__card" data-name="broncos">
+          <!-- <img class="game__card-back" src="images/broncos.png" alt="Broncos"> -->
+          <img class="game__card-front" src="images/nfl-logo.png" alt="NFL Logo">
+        </div>
+        <div class="game__card" data-name="browns">
+          <!-- <img class="game__card-back" src="images/browns.png" alt="Browns"> -->
+          <img class="game__card-front" src="images/nfl-logo.png" alt="NFL Logo">
+        </div>
+        <div class="game__card" data-name="buccaneers">
+          <!-- <img class="game__card-back" src="images/buccaneers.png" alt="Buccaneers"> -->
+          <img class="game__card-front" src="images/nfl-logo.png" alt="NFL Logo">
+        </div>
+        <div class="game__card" data-name="cardinals">
+          <!-- <img class="game__card-back" src="images/cardinals.png" alt="Cardinals"> -->
+          <img class="game__card-front" src="images/nfl-logo.png" alt="NFL Logo">
+        </div>
+        <div class="game__card" data-name="chargers">
+          <!-- <img class="game__card-back" src="images/chargers.png" alt="Chargers"> -->
+          <img class="game__card-front" src="images/nfl-logo.png" alt="NFL Logo">
+        </div>
+        <div class="game__card" data-name="chiefs">
+          <!-- <img class="game__card-back" src="images/chiefs.png" alt="Chiefs"> -->
+          <img class="game__card-front" src="images/nfl-logo.png" alt="NFL Logo">
+        </div>
+        <div class="game__card" data-name="colts">
+          <!-- <img class="game__card-back" src="images/colts.png" alt="Colts"> -->
+          <img class="game__card-front" src="images/nfl-logo.png" alt="NFL Logo">
+        </div>
+        <div class="game__card" data-name="cowboys">
+          <!-- <img class="game__card-back" src="images/cowboys.png" alt="Cowboys"> -->
+          <img class="game__card-front" src="images/nfl-logo.png" alt="NFL Logo">
+        </div>
+    </div>
+    <div class="modal__container" id="modal">
+      <div class="modal">
+        <h2 class="modal__title">Congratulations!</h2>
+        <p class="modal__text">You've completed the game in <span id="modal-moves">0</span> moves with a time of <span id="modal-time">0</span> seconds.</p>
+        <button class="header__button" id="restart">
+          <i class='bx bx-refresh'></i>
+        </button>
+        <button class="modal__button" id="modal-restart">Play Again</button>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+
+
+</html>
